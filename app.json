@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "BMI & Pemantau Jarak",
+    "slug": "bmi-jarak-expo54",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF0F6"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF0F6"
+      },
+      "package": "com.deyaa.bmijarak",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deyaa.bmijarak"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Izinkan aplikasi BMI & Pemantau Jarak menggunakan lokasi Anda saat aplikasi sedang digunakan."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2e06afe3-83cd-420f-8d10-1bafb51f0f80"
+      }
+    }
+  }
+}
